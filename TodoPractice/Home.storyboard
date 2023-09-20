@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="Home" id="Y6W-OH-hqX" customClass="HomeController" customModule="TodoPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEf-SN-cQw">
+                                <rect key="frame" x="179" y="396" width="35" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H7S-CS-bUI">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="가계부" id="EBM-ts-crd">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="magnifyingglass" catalog="system" id="INd-jZ-LOr"/>
+                                        <centerItemGroups>
+                                            <barButtonItemGroup customizationDisposition="fixed" id="aws-OY-ClK">
+                                                <barButtonItems>
+                                                    <barButtonItem title="Item" id="9qB-Wx-TOh"/>
+                                                </barButtonItems>
+                                            </barButtonItemGroup>
+                                        </centerItemGroups>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Be-hd-dxA">
+                                <rect key="frame" x="321" y="684" width="47" height="35"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
+                                <connections>
+                                    <action selector="moveRegisterPricePage:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8mK-Zn-fQA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1Be-hd-dxA" secondAttribute="trailing" constant="25" id="Jc1-bz-i7l"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="1Be-hd-dxA" secondAttribute="bottom" constant="50" id="yeE-31-3Bd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="mUO-Jg-lrm"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="vRl-tn-Ybp" kind="show" identifier="RegisterMoneyPage" id="EeD-fI-Iq3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63" y="-40"/>
+        </scene>
+        <!--Register Rrice Page Controller-->
+        <scene sceneID="uXt-oB-vsJ">
+            <objects>
+                <viewController storyboardIdentifier="RegisterMoneyPage" id="vRl-tn-Ybp" customClass="RegisterRricePageController" customModule="TodoPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMf-BC-NUL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가계부 등록화면" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLl-sm-RWZ">
+                                <rect key="frame" x="40" y="114.33333333333331" width="313" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awQ-sV-RUB">
+                                <rect key="frame" x="30" y="50" width="61" height="34.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back"/>
+                                <connections>
+                                    <segue destination="lP1-5C-J1P" kind="unwind" unwindAction="unwindToHome:" id="fI3-FZ-zB5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qr2-EZ-hT4">
+                                <rect key="frame" x="169.66666666666666" y="283" width="53.666666666666657" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="등록"/>
+                                <connections>
+                                    <action selector="saveMoneyInfo:" destination="vRl-tn-Ybp" eventType="touchUpInside" id="mLP-We-CRB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-g7-HbD">
+                                <rect key="frame" x="30" y="224.33333333333334" width="333" height="28.666666666666657"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="N6g-eb-ZcR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qr2-EZ-hT4" firstAttribute="centerX" secondItem="zMf-BC-NUL" secondAttribute="centerX" id="9lQ-2k-03g"/>
+                            <constraint firstItem="awQ-sV-RUB" firstAttribute="top" secondItem="N6g-eb-ZcR" secondAttribute="top" constant="50" id="Blo-59-lXU"/>
+                            <constraint firstItem="N6g-eb-ZcR" firstAttribute="trailing" secondItem="Rte-g7-HbD" secondAttribute="trailing" constant="30" id="IbS-oP-W09"/>
+                            <constraint firstItem="uLl-sm-RWZ" firstAttribute="leading" secondItem="N6g-eb-ZcR" secondAttribute="leading" constant="40" id="Vod-Ze-bzM"/>
+                            <constraint firstItem="Rte-g7-HbD" firstAttribute="leading" secondItem="N6g-eb-ZcR" secondAttribute="leading" constant="30" id="ZaO-Dk-pcV"/>
+                            <constraint firstItem="Qr2-EZ-hT4" firstAttribute="top" secondItem="Rte-g7-HbD" secondAttribute="bottom" constant="30" id="dsf-EX-CZp"/>
+                            <constraint firstItem="Rte-g7-HbD" firstAttribute="top" secondItem="uLl-sm-RWZ" secondAttribute="bottom" constant="50" id="eBP-Ts-99B"/>
+                            <constraint firstItem="uLl-sm-RWZ" firstAttribute="top" secondItem="awQ-sV-RUB" secondAttribute="bottom" constant="30" id="hfh-qf-g1l"/>
+                            <constraint firstItem="N6g-eb-ZcR" firstAttribute="trailing" secondItem="uLl-sm-RWZ" secondAttribute="trailing" constant="40" id="ozf-ZU-Kkc"/>
+                            <constraint firstItem="awQ-sV-RUB" firstAttribute="leading" secondItem="N6g-eb-ZcR" secondAttribute="leading" constant="30" id="reF-Jn-DA1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PHS-gE-kMU"/>
+                    <connections>
+                        <outlet property="priceTextField" destination="Rte-g7-HbD" id="fIK-lX-Pb0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ytc-5K-duW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="lP1-5C-J1P" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="-40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
