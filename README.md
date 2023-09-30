@@ -9,7 +9,10 @@
 # 機能一覧
 
 ## ログイン機能
-<img width="348" alt="image" src="https://github.com/KimJinsu66/TodoPractice/assets/45025575/8b1d9660-9124-40de-94a4-962a09e7e931">
+<img width="365" alt="image" src="https://github.com/KimJinsu66/TodoPractice/assets/45025575/0f0be6ea-7cb6-455b-b8c0-62a0cc58f18f">
+
+### TODO
+- 会員登録
 
 ## TODOアプリ(TODO)
 <img width="310" alt="image" src="https://github.com/KimJinsu66/TodoPractice/assets/45025575/12eaae69-6692-4576-93f9-c7a74f2903ac">
