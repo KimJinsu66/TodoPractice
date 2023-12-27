@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0619FC9D2ABC827E0041462E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0619FC9C2ABC827E0041462E /* FirebaseAnalytics */; };
+		0619FC9F2ABC88510041462E /* todoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619FC9E2ABC88510041462E /* todoTableViewCell.swift */; };
 		063A2DB42AB5BAEC00A63216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DB32AB5BAEC00A63216 /* AppDelegate.swift */; };
 		063A2DB62AB5BAEC00A63216 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DB52AB5BAEC00A63216 /* SceneDelegate.swift */; };
 		063A2DB82AB5BAEC00A63216 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DB72AB5BAEC00A63216 /* HomeTabBarController.swift */; };
@@ -18,6 +20,24 @@
 		063A2DD72AB5BAED00A63216 /* TodoPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DD62AB5BAED00A63216 /* TodoPracticeUITestsLaunchTests.swift */; };
 		063A2DE42AB5F75500A63216 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DE32AB5F75500A63216 /* TodoViewController.swift */; };
 		063A2DE62AB6083500A63216 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DE52AB6083500A63216 /* SettingTableViewController.swift */; };
+		063A2DE82AB68AFC00A63216 /* MemoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DE72AB68AFC00A63216 /* MemoListController.swift */; };
+		063A2DEA2AB68FFC00A63216 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DE92AB68FFC00A63216 /* TableViewController.swift */; };
+		063A2DEC2AB7285600A63216 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063A2DEB2AB7285600A63216 /* Home.storyboard */; };
+		063A2DEE2AB73E0100A63216 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DED2AB73E0100A63216 /* HomeController.swift */; };
+		063A2DF02AB7441F00A63216 /* RegisterRricePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A2DEF2AB7441F00A63216 /* RegisterRricePageController.swift */; };
+		066746252ABDE48A00F99380 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066746242ABDE48A00F99380 /* DetailViewController.swift */; };
+		066746272ABDE54100F99380 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066746262ABDE54100F99380 /* Memo.swift */; };
+		0667462A2ABDE90300F99380 /* MemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 066746282ABDE90300F99380 /* MemoApp.xcdatamodeld */; };
+		069DD9CA2AC7D34C0081B8CA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069DD9C92AC7D34C0081B8CA /* LoginController.swift */; };
+		06AAA9142AC814A300037567 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 06AAA9132AC814A300037567 /* FirebaseAuth */; };
+		06AAA9162AC9B53300037567 /* RegisterUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AAA9152AC9B53300037567 /* RegisterUser.storyboard */; };
+		06AAA9182AC9B54B00037567 /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA9172AC9B54B00037567 /* RegisterUserViewController.swift */; };
+		06C6AB7F2ABFEBE6002F6605 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06C6AB7E2ABFEBE6002F6605 /* GoogleService-Info.plist */; };
+		06C6AB812ABFEC55002F6605 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 06C6AB802ABFEC55002F6605 /* FirebaseDatabase */; };
+		06C6AB832ABFEC55002F6605 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 06C6AB822ABFEC55002F6605 /* FirebaseDatabaseSwift */; };
+		06EEC20B2AC4754B0078A426 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 06EEC20A2AC4754B0078A426 /* Liverpool.png */; };
+		0AE750DDACABC515364C44AC /* Pods_TodoPractice_TodoPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405530F170CF4CF9A7797E2D /* Pods_TodoPractice_TodoPracticeUITests.framework */; };
+		2582007A92D960590ECBB3C2 /* Pods_TodoPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A401BF6E093361FC84F986 /* Pods_TodoPracticeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0619FC9E2ABC88510041462E /* todoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoTableViewCell.swift; sourceTree = "<group>"; };
 		063A2DB02AB5BAEC00A63216 /* TodoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		063A2DB32AB5BAEC00A63216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		063A2DB52AB5BAEC00A63216 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +74,22 @@
 		063A2DD62AB5BAED00A63216 /* TodoPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		063A2DE32AB5F75500A63216 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		063A2DE52AB6083500A63216 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		063A2DE72AB68AFC00A63216 /* MemoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListController.swift; sourceTree = "<group>"; };
+		063A2DE92AB68FFC00A63216 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		063A2DEB2AB7285600A63216 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		063A2DED2AB73E0100A63216 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		063A2DEF2AB7441F00A63216 /* RegisterRricePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRricePageController.swift; sourceTree = "<group>"; };
+		066746242ABDE48A00F99380 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		066746262ABDE54100F99380 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		066746292ABDE90300F99380 /* MemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoApp.xcdatamodel; sourceTree = "<group>"; };
+		069DD9C92AC7D34C0081B8CA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		06AAA9152AC9B53300037567 /* RegisterUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterUser.storyboard; sourceTree = "<group>"; };
+		06AAA9172AC9B54B00037567 /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		06C6AB7E2ABFEBE6002F6605 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleServices/TestPractice/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06EEC20A2AC4754B0078A426 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Liverpool.png; path = "../../../Documents/開発写真/Liverpool.png"; sourceTree = "<group>"; };
+		405530F170CF4CF9A7797E2D /* Pods_TodoPractice_TodoPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoPractice_TodoPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B61B135BDA40C5AAB512CF2 /* Pods_TodoPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A401BF6E093361FC84F986 /* Pods_TodoPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C6AB832ABFEC55002F6605 /* FirebaseDatabaseSwift in Frameworks */,
+				06C6AB812ABFEC55002F6605 /* FirebaseDatabase in Frameworks */,
+				0619FC9D2ABC827E0041462E /* FirebaseAnalytics in Frameworks */,
+				06AAA9142AC814A300037567 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2582007A92D960590ECBB3C2 /* Pods_TodoPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE750DDACABC515364C44AC /* Pods_TodoPractice_TodoPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +126,12 @@
 		063A2DA72AB5BAEC00A63216 = {
 			isa = PBXGroup;
 			children = (
+				06EEC20A2AC4754B0078A426 /* Liverpool.png */,
 				063A2DB22AB5BAEC00A63216 /* TodoPractice */,
 				063A2DC92AB5BAED00A63216 /* TodoPracticeTests */,
 				063A2DD32AB5BAED00A63216 /* TodoPracticeUITests */,
 				063A2DB12AB5BAEC00A63216 /* Products */,
+				1E06450806633476BAB93BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +148,24 @@
 		063A2DB22AB5BAEC00A63216 /* TodoPractice */ = {
 			isa = PBXGroup;
 			children = (
+				069DD9CB2AC7D3CD0081B8CA /* StoryBoards */,
+				069DD9C82AC7D3300081B8CA /* Models */,
+				069DD9C72AC7D3270081B8CA /* Controllers */,
+				066746232ABDE45A00F99380 /* Memo */,
 				063A2DB32AB5BAEC00A63216 /* AppDelegate.swift */,
 				063A2DB52AB5BAEC00A63216 /* SceneDelegate.swift */,
 				063A2DB72AB5BAEC00A63216 /* HomeTabBarController.swift */,
 				063A2DE32AB5F75500A63216 /* TodoViewController.swift */,
+				0619FC9E2ABC88510041462E /* todoTableViewCell.swift */,
 				063A2DE52AB6083500A63216 /* SettingTableViewController.swift */,
-				063A2DB92AB5BAEC00A63216 /* Main.storyboard */,
+				063A2DE72AB68AFC00A63216 /* MemoListController.swift */,
+				063A2DEF2AB7441F00A63216 /* RegisterRricePageController.swift */,
+				063A2DE92AB68FFC00A63216 /* TableViewController.swift */,
 				063A2DBC2AB5BAED00A63216 /* Assets.xcassets */,
 				063A2DBE2AB5BAED00A63216 /* LaunchScreen.storyboard */,
 				063A2DC12AB5BAED00A63216 /* Info.plist */,
+				066746282ABDE90300F99380 /* MemoApp.xcdatamodeld */,
+				06C6AB7E2ABFEBE6002F6605 /* GoogleService-Info.plist */,
 			);
 			path = TodoPractice;
 			sourceTree = "<group>";
@@ -133,6 +187,52 @@
 			path = TodoPracticeUITests;
 			sourceTree = "<group>";
 		};
+		066746232ABDE45A00F99380 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				066746242ABDE48A00F99380 /* DetailViewController.swift */,
+				066746262ABDE54100F99380 /* Memo.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		069DD9C72AC7D3270081B8CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				063A2DED2AB73E0100A63216 /* HomeController.swift */,
+				069DD9C92AC7D34C0081B8CA /* LoginController.swift */,
+				06AAA9172AC9B54B00037567 /* RegisterUserViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		069DD9C82AC7D3300081B8CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		069DD9CB2AC7D3CD0081B8CA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				063A2DB92AB5BAEC00A63216 /* Main.storyboard */,
+				063A2DEB2AB7285600A63216 /* Home.storyboard */,
+				06AAA9152AC9B53300037567 /* RegisterUser.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1E06450806633476BAB93BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B61B135BDA40C5AAB512CF2 /* Pods_TodoPractice.framework */,
+				405530F170CF4CF9A7797E2D /* Pods_TodoPractice_TodoPracticeUITests.framework */,
+				C8A401BF6E093361FC84F986 /* Pods_TodoPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +249,12 @@
 			dependencies = (
 			);
 			name = TodoPractice;
+			packageProductDependencies = (
+				0619FC9C2ABC827E0041462E /* FirebaseAnalytics */,
+				06C6AB802ABFEC55002F6605 /* FirebaseDatabase */,
+				06C6AB822ABFEC55002F6605 /* FirebaseDatabaseSwift */,
+				06AAA9132AC814A300037567 /* FirebaseAuth */,
+			);
 			productName = TodoPractice;
 			productReference = 063A2DB02AB5BAEC00A63216 /* TodoPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 063A2DDD2AB5BAED00A63216 /* Build configuration list for PBXNativeTarget "TodoPracticeTests" */;
 			buildPhases = (
+				0E94C73CC8F6CBCC2D3E7626 /* [CP] Check Pods Manifest.lock */,
 				063A2DC22AB5BAED00A63216 /* Sources */,
 				063A2DC32AB5BAED00A63216 /* Frameworks */,
 				063A2DC42AB5BAED00A63216 /* Resources */,
@@ -175,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 063A2DE02AB5BAED00A63216 /* Build configuration list for PBXNativeTarget "TodoPracticeUITests" */;
 			buildPhases = (
+				EA20873A372BD3E3455A15EC /* [CP] Check Pods Manifest.lock */,
 				063A2DCC2AB5BAED00A63216 /* Sources */,
 				063A2DCD2AB5BAED00A63216 /* Frameworks */,
 				063A2DCE2AB5BAED00A63216 /* Resources */,
+				B875F1250469BA62EDDA4D69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +330,9 @@
 				Base,
 			);
 			mainGroup = 063A2DA72AB5BAEC00A63216;
+			packageReferences = (
+				0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 063A2DB12AB5BAEC00A63216 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,7 +351,11 @@
 			files = (
 				063A2DC02AB5BAED00A63216 /* LaunchScreen.storyboard in Resources */,
 				063A2DBD2AB5BAED00A63216 /* Assets.xcassets in Resources */,
+				06AAA9162AC9B53300037567 /* RegisterUser.storyboard in Resources */,
+				06C6AB7F2ABFEBE6002F6605 /* GoogleService-Info.plist in Resources */,
 				063A2DBB2AB5BAEC00A63216 /* Main.storyboard in Resources */,
+				06EEC20B2AC4754B0078A426 /* Liverpool.png in Resources */,
+				063A2DEC2AB7285600A63216 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,16 +375,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E94C73CC8F6CBCC2D3E7626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B875F1250469BA62EDDA4D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoPractice-TodoPracticeUITests/Pods-TodoPractice-TodoPracticeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoPractice-TodoPracticeUITests/Pods-TodoPractice-TodoPracticeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoPractice-TodoPracticeUITests/Pods-TodoPractice-TodoPracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA20873A372BD3E3455A15EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoPractice-TodoPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		063A2DAC2AB5BAEC00A63216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066746252ABDE48A00F99380 /* DetailViewController.swift in Sources */,
 				063A2DE42AB5F75500A63216 /* TodoViewController.swift in Sources */,
+				0619FC9F2ABC88510041462E /* todoTableViewCell.swift in Sources */,
+				066746272ABDE54100F99380 /* Memo.swift in Sources */,
+				063A2DEA2AB68FFC00A63216 /* TableViewController.swift in Sources */,
+				063A2DF02AB7441F00A63216 /* RegisterRricePageController.swift in Sources */,
+				063A2DE82AB68AFC00A63216 /* MemoListController.swift in Sources */,
 				063A2DB82AB5BAEC00A63216 /* HomeTabBarController.swift in Sources */,
+				0667462A2ABDE90300F99380 /* MemoApp.xcdatamodeld in Sources */,
+				063A2DEE2AB73E0100A63216 /* HomeController.swift in Sources */,
+				06AAA9182AC9B54B00037567 /* RegisterUserViewController.swift in Sources */,
 				063A2DB42AB5BAEC00A63216 /* AppDelegate.swift in Sources */,
 				063A2DB62AB5BAEC00A63216 /* SceneDelegate.swift in Sources */,
 				063A2DE62AB6083500A63216 /* SettingTableViewController.swift in Sources */,
+				069DD9CA2AC7D34C0081B8CA /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +800,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0619FC9C2ABC827E0041462E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		06AAA9132AC814A300037567 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		06C6AB802ABFEC55002F6605 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		06C6AB822ABFEC55002F6605 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0619FC9B2ABC827E0041462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		066746282ABDE90300F99380 /* MemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				066746292ABDE90300F99380 /* MemoApp.xcdatamodel */,
+			);
+			currentVersion = 066746292ABDE90300F99380 /* MemoApp.xcdatamodel */;
+			path = MemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 063A2DA82AB5BAEC00A63216 /* Project object */;
 }
